@@ -30,6 +30,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import huawei from './company/huawei.webp'
+import huawei123 from './company/huawei123.svg'
 import yilab from './company/yilab.jpg'
 
 export {
@@ -62,5 +63,6 @@ export {
   jobit,
   tripguide,
   huawei,
+  huawei123,
   yilab
 };
