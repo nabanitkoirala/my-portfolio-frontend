@@ -24,6 +24,7 @@ import {
   tripguide,
   threejs,
   huawei,
+  huawei123,
   yilab
 } from "../assets";
 
@@ -163,7 +164,7 @@ const qualifications = [
     title: "Bachelor in Electronics & Communication Engineering",
     company_name: "Purbanchal University School of Engineering & Technology,Biratnagar,Nepal",
     icon: yilab,
-    iconBg: "#E6DEDD",
+    iconBg: "#383E56",
     date: "2015",
     // points: [
     //   "Identify user and system requirements for new websites/portals and applications.",
@@ -179,7 +180,7 @@ const qualifications = [
     title: "Masters of Science in Information System Engineering,(Msc ISE)",
     company_name: "Purbanchal University School of Engineering,Biratnagar,Nepal",
     icon: yilab,
-    iconBg: "#E6DEDD",
+    iconBg: "#383E56",
     date: "Current",
     // points: [
     //   "Identify user and system requirements for new websites/portals and applications.",
@@ -197,7 +198,7 @@ const experiences = [
   {
     title: "RF Support Engineer",
     company_name: "Huawei Technologies Nepal Co Pvt Ltd",
-    icon: huawei,
+    icon: huawei123,
     iconBg: "#383E56",
     date: "June 2016 - February 2020",
     points: [
