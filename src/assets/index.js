@@ -30,9 +30,8 @@ import carrent from "./carrent.png";
 import bipadportal from "./bipadportal.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import huawei from './company/huawei.webp'
-import huawei123 from './company/huawei123.svg'
-import yilab from './company/yilab.jpg'
+import huawei from './company/huawei.svg'
+import yilab from './company/yilab.svg'
 import fellowship from './fellowship.png'
 import humanRights from './humanRights.png'
 import ndrrma from './ndrrma.png'
@@ -76,7 +75,6 @@ export {
   jobit,
   tripguide,
   huawei,
-  huawei123,
   yilab,
   bipadportal
 };

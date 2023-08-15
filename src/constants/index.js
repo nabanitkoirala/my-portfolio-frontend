@@ -24,7 +24,6 @@ import {
   tripguide,
   threejs,
   huawei,
-  huawei123,
   yilab,
   fellowship,
   humanRights,
@@ -205,8 +204,8 @@ const experiences = [
   {
     title: "RF Support Engineer",
     company_name: "Huawei Technologies Nepal Co Pvt Ltd",
-    icon: huawei123,
-    iconBg: "#383E56",
+    icon: huawei,
+    iconBg: "#ffffff",
     date: "June 2016 - February 2020",
     points: [
       "Monitoring and analyzing the traffic of sites of Nepal Telecom.",
@@ -221,7 +220,7 @@ const experiences = [
     title: "Web Developer",
     company_name: "Youth Innovation Lab",
     icon: yilab,
-    iconBg: "#383E56",
+    iconBg: "#ffffff",
     date: "June 2020 - April 2022",
     points: [
       "Prioritizing user experience.",
@@ -237,7 +236,7 @@ const experiences = [
     title: "Senior Web Developer",
     company_name: "Youth Innovation Lab",
     icon: yilab,
-    iconBg: "#E6DEDD",
+    iconBg: "#ffffff",
     date: "April 2022 - Present",
     points: [
       "Identify user and system requirements for new websites/portals and applications.",
