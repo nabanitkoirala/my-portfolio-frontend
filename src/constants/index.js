@@ -25,7 +25,14 @@ import {
   threejs,
   huawei,
   huawei123,
-  yilab
+  yilab,
+  fellowship,
+  humanRights,
+  ndrrma,
+  shikshya,
+  youthCAn,
+  bipadportal,
+  oxfam
 } from "../assets";
 
 export const navLinks = [
@@ -272,32 +279,12 @@ const testimonials = [
   },
 ];
 
+
 const projects = [
   {
-    name: "Car Rent",
+    name: "BIPAD Portal",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Building Information Platform Against Disaster (BIPAD) portal is an integrated and comprehensive Disaster Information Management System initiated by the Government of Nepal, Ministry of Home Affairs, then National Emergency Operation Center and is currently managed by the National Disaster Risk Reduction and Management Authority. The system is built upon the concept of creating a national portal embedded with independent platforms for National, Provincial, and Municipal Governments with bottom-up approach of disaster data partnership.",
     tags: [
       {
         name: "react",
@@ -311,30 +298,163 @@ const projects = [
         name: "scss",
         color: "pink-text-gradient",
       },
+      {
+        name: "Mapbox",
+        color: "yellow-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: bipadportal,
+    source_code_link: "https://bipadportal.gov.np/",
   },
   {
-    name: "Trip Guide",
+    name: "NYCAGG",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Nepali Yuwa in Climate Action and Green Growth (NYCAGG) project is funded by the European Union to promote the involvement of young Nepali people in green growth, environmental protection, and combatting climate change. NYCAGG is a four year-long project that will be implemented in Province 2, Karnali Province, and Sudurpaschim Province through the consortium partners Youth Innovation Lab (YI-LAB), Restless Development Nepal, CREASION, and CDMS.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Mapbox",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: youthCAn,
+    source_code_link: "https://theyouthcan.org/",
+  },
+  {
+    name: "NDRRMA",
+    description:
+      "Section 10 of the Disaster Risk Reduction and Management Act, 2074 provides for the National Disaster Risk Reduction and Management Authority(NDRRMA). The authority was established on 29/07/2076 with the appointment of the executive head. This authority acts as a central resource body related to disaster risk reduction and management. Currently, its office is located in Singha Darbar, Kathmandu.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Mapbox",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: ndrrma,
+    source_code_link: "https://ndrrma.yilab.org.np/",
+  },
+  {
+    name: "Shikshya",
+    description:
+      "Welcome to Shikshya.org . Our mission is to provide the best educational resources and tools to our users, empowering them to achieve their full potential and become lifelong learners.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: shikshya,
+    source_code_link: "https://shikshya.org/",
+  },
+  {
+    name: "Human Rights Portal",
+    description:
+      "An integrated and data driven human rights information management system developed to track human rights progress from all three tiers of Governments.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Mapbox",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "django",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: humanRights,
+    source_code_link: "https://humanrights.yilab.org.np/",
+  },
+  {
+    name: "Fellowship",
+    description:
+      "Given the reality that most of the municipalities lack capacities to collect, manage, and use DRR information for informed decision making, DRR-Fellowship aims to address this issue by mobilizing trained local youths with sound knowledge on BIPAD portal in the local governments. DRR fellows act as a connecting bridge to transfer the technical capacity of using BIPAD portal to the local governments. Throughout DRR-Fellowship, DRR fellows will also have exciting opportunities to participate in learning events being organized by leading institutions in the field of DRRM including NDRRMA.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
         color: "green-text-gradient",
       },
       {
         name: "css",
         color: "pink-text-gradient",
       },
+      {
+        name: "django",
+        color: "pink-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: fellowship,
+    source_code_link: "https://fellowship.youthinnovationlab.org/",
+  },
+  {
+    name: "Visualization of Data",
+    description:
+      "OXFAM Nepal has collected different category of data related to sanitation in Sarlahi and Rautahat district of Nepal and it is visualized in this portal.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Mapbox",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: oxfam,
+    source_code_link: "https://viz.oxfaminnepal.org/",
   },
 ];
 

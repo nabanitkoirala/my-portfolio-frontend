@@ -27,13 +27,26 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
+import bipadportal from "./bipadportal.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import huawei from './company/huawei.webp'
 import huawei123 from './company/huawei123.svg'
 import yilab from './company/yilab.jpg'
+import fellowship from './fellowship.png'
+import humanRights from './humanRights.png'
+import ndrrma from './ndrrma.png'
+import shikshya from './shikshya.png'
+import youthCAn from './youthCAn.png'
+import oxfam from './oxfam.png'
 
 export {
+  oxfam,
+  fellowship,
+  humanRights,
+  ndrrma,
+  shikshya,
+  youthCAn,
   logo,
   backend,
   creator,
@@ -64,5 +77,6 @@ export {
   tripguide,
   huawei,
   huawei123,
-  yilab
+  yilab,
+  bipadportal
 };
