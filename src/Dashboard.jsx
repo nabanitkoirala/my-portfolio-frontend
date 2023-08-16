@@ -19,7 +19,7 @@ const Dashboard = () => {
             <Feedbacks />
             <div className='relative z-0'>
                 <Contact />
-                <StarsCanvas />
+                {window.screen.width < 500 ? "" : <StarsCanvas />}
             </div>
         </div>
     )
