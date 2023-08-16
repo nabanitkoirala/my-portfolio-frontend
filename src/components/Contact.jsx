@@ -153,13 +153,15 @@ const Contact = () => {
           </button>
         </form>
       </motion.div>
+      {
+        window.screen.width < 500 ? "" : <motion.div
+          variants={window.screen.width < 500 ? "" : slideIn("right", "tween", 0.2, 1)}
+          className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
+        >
+          <EarthCanvas />
+        </motion.div>
+      }
 
-      <motion.div
-        variants={window.screen.width < 500 ? "" : slideIn("right", "tween", 0.2, 1)}
-        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
-      >
-        <EarthCanvas />
-      </motion.div>
     </div>
   );
 };
