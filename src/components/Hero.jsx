@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import thisPc from '../assets/thisPc.jpg';
 
 const Hero = () => {
   return (
@@ -22,10 +23,20 @@ const Hero = () => {
             I develop website, web <br className='sm:block hidden' />
             applications,software applications,deployment and hosting.
           </p>
+          {
+            window.screen.width < 500 ?
+
+              <div style={{ marginTop: '150px' }} >
+                <img src={thisPc} alt="thisPc" />
+              </div> : ""}
+
         </div>
       </div>
 
-      <ComputersCanvas />
+      {
+        window.screen.width < 500 ? "" : <ComputersCanvas />
+      }
+
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
