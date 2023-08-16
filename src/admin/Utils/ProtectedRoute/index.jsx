@@ -9,10 +9,10 @@ const ProtectedRoute = (props) => {
     } = props;
 
     const [isLoggedIn, setIsLoggedIn] = useState();
-    console.log("child", children)
+
     const test = async () => {
         const data = await localStorage.getItem('accessToken')
-        console.log("This is data", data)
+
         data ? setIsLoggedIn(true) : setIsLoggedIn(false)
         return
     }

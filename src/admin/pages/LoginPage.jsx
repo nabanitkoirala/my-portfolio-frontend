@@ -13,7 +13,7 @@ const LoginPage = () => {
     password: "",
   });
   const navigate = useNavigate()
-  console.log("user", user);
+
   const [errors, setErrors] = useState({});
   const [firstSubmit, setFirstSubmit] = useState(false)
   const regex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
@@ -21,7 +21,7 @@ const LoginPage = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setFirstSubmit(true);
-    console.log("This is validate form", validateForm())
+
     if (validateForm()) {
       // console.log(e, "event");
       // console.log(email, "email");

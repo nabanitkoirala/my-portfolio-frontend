@@ -23,12 +23,12 @@ const Hero = () => {
             I develop website, web <br className='sm:block hidden' />
             applications,software applications,deployment and hosting.
           </p>
-          {
+          {/* {
             window.screen.width < 500 ?
 
               <div style={{ marginTop: '150px' }} >
                 <img src={thisPc} alt="thisPc" />
-              </div> : ""}
+              </div> : ""} */}
 
         </div>
       </div>

@@ -78,7 +78,7 @@ const ProjectCard = ({
 };
 
 const Works = () => {
-  console.log("This is window width", window.screen.width)
+
   return (
     <>
       <motion.div variants={window.screen.width < 500 ? '' : textVariant()} >

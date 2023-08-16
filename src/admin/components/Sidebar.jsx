@@ -342,7 +342,7 @@ const Sidebar = ({ setShow }) => {
     // },
   ];
 
-  console.log("This is pathname", pathname)
+
   return (
     <>
       <div className="h-screen absolute inset-0 md:relative ">

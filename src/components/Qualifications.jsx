@@ -59,7 +59,7 @@ const ExperienceCard = ({ experience }) => {
 const Qualification = () => {
     return (
         <>
-            <motion.div variants={textVariant()}>
+            <motion.div variants={window.screen.width < 500 ? "" : textVariant()}>
 
                 <h2 className={`${styles.sectionHeadText} text-center`}>
                     Education Qualification.
