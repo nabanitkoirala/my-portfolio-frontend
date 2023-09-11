@@ -16,7 +16,7 @@ const Dashboard = () => {
             {/* <Trainings /> */}
             <Tech />
             <Works />
-            <Feedbacks />
+            {/* <Feedbacks /> */}
             <div className='relative z-0'>
                 <Contact />
                 {window.screen.width < 500 ? "" : <StarsCanvas />}

@@ -38,6 +38,7 @@ import ndrrma from './ndrrma.png'
 import shikshya from './shikshya.png'
 import youthCAn from './youthCAn.png'
 import oxfam from './oxfam.png'
+import mapbox from './tech/mapbox.png'
 
 export {
   oxfam,
@@ -76,5 +77,6 @@ export {
   tripguide,
   huawei,
   yilab,
-  bipadportal
+  bipadportal,
+  mapbox
 };

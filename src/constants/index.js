@@ -31,7 +31,8 @@ import {
   shikshya,
   youthCAn,
   bipadportal,
-  oxfam
+  oxfam,
+  mapbox
 } from "../assets";
 
 export const navLinks = [
@@ -123,6 +124,11 @@ const technologies = [
     icon: git,
     id: 10
   },
+  {
+    name: "Mapbox",
+    icon: mapbox,
+    id: 11
+  },
   // {
   //   name: "figma",
   //   icon: figma,
@@ -135,37 +141,37 @@ const technologies = [
 
 
 const qualifications = [
-  {
-    title: "SLC",
-    company_name: "Don Bosco School (Nilgiri),Biratnagar,Nepal",
-    icon: huawei,
-    iconBg: "#383E56",
-    date: "2007",
-    // points: [
-    //   "Monitoring and analyzing the traffic of sites of Nepal Telecom.",
-    //   "Customer complain handling and optimization of Nepal Telecom network.",
-    //   "Site survey and Planning support for Nepal Telecom.",
-    //   "Site Optimization and resource distribution support using U2000 server of Nepal Telecom.",
-    //   "Major city telecom network optimization/planning and field team support using U2000 server of Nepal Telecom.",
-    //   "Support for frequency planning team and verification of physical site planning."
-    // ],
-  },
-  {
-    title: "Higher Secondary Education (10+2)",
-    company_name: "Arniko Awasiya Higher Secondary School,Biratnagar,Nepal",
-    icon: yilab,
-    iconBg: "#383E56",
-    date: "2009",
-    // points: [
-    //   "Prioritizing user experience.",
-    //   "Bringing a concept to life with HTML, CSS, and JavaScript.",
-    //   "Production and maintenance of websites and web application user interfaces.",
-    //   "Creating tools that enhance interaction with the site in any browser",
-    //   "Implementing design for mobile sites.",
-    //   "Maintaining software workflow management",
-    //   "Testing the site for usability and fixing any bugs"
-    // ],
-  },
+  // {
+  //   title: "SLC",
+  //   company_name: "Don Bosco School (Nilgiri),Biratnagar,Nepal",
+  //   icon: huawei,
+  //   iconBg: "#383E56",
+  //   date: "2007",
+  //   points: [
+  //     "Monitoring and analyzing the traffic of sites of Nepal Telecom.",
+  //     "Customer complain handling and optimization of Nepal Telecom network.",
+  //     "Site survey and Planning support for Nepal Telecom.",
+  //     "Site Optimization and resource distribution support using U2000 server of Nepal Telecom.",
+  //     "Major city telecom network optimization/planning and field team support using U2000 server of Nepal Telecom.",
+  //     "Support for frequency planning team and verification of physical site planning."
+  //   ],
+  // },
+  // {
+  //   title: "Higher Secondary Education (10+2)",
+  //   company_name: "Arniko Awasiya Higher Secondary School,Biratnagar,Nepal",
+  //   icon: yilab,
+  //   iconBg: "#383E56",
+  //   date: "2009",
+  //   points: [
+  //     "Prioritizing user experience.",
+  //     "Bringing a concept to life with HTML, CSS, and JavaScript.",
+  //     "Production and maintenance of websites and web application user interfaces.",
+  //     "Creating tools that enhance interaction with the site in any browser",
+  //     "Implementing design for mobile sites.",
+  //     "Maintaining software workflow management",
+  //     "Testing the site for usability and fixing any bugs"
+  //   ],
+  // },
   {
     title: "Bachelor in Electronics & Communication Engineering",
     company_name: "Purbanchal University School of Engineering & Technology,Biratnagar,Nepal",
@@ -182,22 +188,22 @@ const qualifications = [
     //   "Provide training to the central,provincial and municipality level government officials to use the BIPAD Portal(Disaster portal)."
     // ],
   },
-  {
-    title: "Masters of Science in Information System Engineering,(Msc ISE)",
-    company_name: "Purbanchal University School of Engineering,Biratnagar,Nepal",
-    icon: yilab,
-    iconBg: "#383E56",
-    date: "Current",
-    // points: [
-    //   "Identify user and system requirements for new websites/portals and applications.",
-    //   "Prioritize software development projects, set timelines and assign tasks to team members.",
-    //   "Write or review code for various applications.",
-    //   "Run functionality testings and debug code",
-    //   "Oversee junior web developers and evaluate their performance",
-    //   "Liaise with designers to decide on UI/UX elements (like graphics and navigation buttons)",
-    //   "Provide training to the central,provincial and municipality level government officials to use the BIPAD Portal(Disaster portal)."
-    // ],
-  },
+  // {
+  //   title: "Masters of Science in Information System Engineering,(Msc ISE)",
+  //   company_name: "Purbanchal University School of Engineering,Biratnagar,Nepal",
+  //   icon: yilab,
+  //   iconBg: "#383E56",
+  //   date: "Current",
+  //   points: [
+  //     "Identify user and system requirements for new websites/portals and applications.",
+  //     "Prioritize software development projects, set timelines and assign tasks to team members.",
+  //     "Write or review code for various applications.",
+  //     "Run functionality testings and debug code",
+  //     "Oversee junior web developers and evaluate their performance",
+  //     "Liaise with designers to decide on UI/UX elements (like graphics and navigation buttons)",
+  //     "Provide training to the central,provincial and municipality level government officials to use the BIPAD Portal(Disaster portal)."
+  //   ],
+  // },
 
 ];
 const experiences = [
