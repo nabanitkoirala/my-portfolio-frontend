@@ -59,8 +59,12 @@ const Contact = () => {
       }
     }
 
+    if (form.name && form.email && form.message) {
+      postJSON(form);
+    } else {
+      alert("Ahh,Please enter your name,email,message and try again.");
+    }
 
-    postJSON(form);
 
     // emailjs
     //   .send(
